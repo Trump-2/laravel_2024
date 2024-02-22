@@ -9,6 +9,14 @@
 
 <body>
     <?php
+
+
+
+    $url = route("route.f3");
+    // laravel 的 dd() 顯示完變數後，會中斷後面的程式碼
+    // dd($url);
+    dump($url);
+
     $text = "Hello, $name - Mobile : $mobile";
     echo $text;
     ?>
