@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <a href="/f1">go_f1</a><br>
-    <a href="/f2">go_f2</a><br>
-    <a href="/f3">go_f3</a>
+    <a href="<?= route('route.f1') ?>">go_f1</a><br>
+    <a href="<?= route("route.f2") ?>">go_f2</a><br>
+    <a href="<?= route("route.f3") ?>">go_f3</a>
 </body>
 
 </html>

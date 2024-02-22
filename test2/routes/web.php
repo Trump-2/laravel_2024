@@ -28,7 +28,6 @@ Route::get('/', function () {
 });
 
 
-
 Route::get('/go_taishan', function () {
     return view('taishan');
 });
@@ -36,10 +35,12 @@ Route::get('/go_taishan', function () {
 
 Route::get('/f1', function () {
     return view('f1');
-});
+})->name('route.f1');
+
 Route::get('/f2', function () {
     return view('f2');
-});
+})->name('route.f2');
+
 Route::get('/f3', function () {
     return view('f3');
-});
+})->name('route.f3');
