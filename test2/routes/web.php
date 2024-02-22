@@ -22,3 +22,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('test');
 });
+
+
+Route::get('/go_taishan', function () {
+    return view('taishan');
+});
+
+
+Route::get('/f1', function () {
+    return view('f1');
+});
+Route::get('/f2', function () {
+    return view('f2');
+});
+Route::get('/f3', function () {
+    return view('f3');
+});
