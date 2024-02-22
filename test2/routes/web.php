@@ -19,9 +19,14 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
+// Route::get('/', function () {
+//     return view('test');
+// });
+
 Route::get('/', function () {
-    return view('test');
+    return view('index');
 });
+
 
 
 Route::get('/go_taishan', function () {
