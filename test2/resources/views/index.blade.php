@@ -8,9 +8,10 @@
 </head>
 
 <body>
-    <a href="<?= route('route.f1') ?>">go_f1</a><br>
-    <a href="<?= route("route.f2") ?>">go_f2</a><br>
-    <a href="<?= route("route.f3") ?>">go_f3</a>
+    {{-- href 中的寫法是 php 框架中常見的模板表達式，用來輸出資料 --}}
+    <a href=" {{route('route.f1')}} ">go_f1</a><br>
+    <a href=" {{route("route.f2")}}">go_f2</a><br>
+    <a href="{{route("route.f3")}}">go_f3</a>
 </body>
 
 </html>
